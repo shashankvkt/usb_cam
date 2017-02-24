@@ -1,5 +1,6 @@
 # usb_cam
-This repository is a usb camera package, based of V4L devices specifically.  
+This repository is a usb camera package, based of V4L devices specifically. 
+
 To execute this package follow the following commands  
 1. In the source directory of your catkin workspace, glone the repository by using the following command
 
@@ -20,3 +21,10 @@ To execute this package follow the following commands
 5.In case of stereo camera, use the following command
 
     roslaunch usb_cam stereo_cam-test.launch
+
+6.To obtain a rectified image from the raw image, use the image_proc node by the following command
+
+    ROS_NAMESPACE:=<camera_namespace> rosrun image_proc image_proc
+
+        OR
+    ROS_NAMESPACE:=<camera_namespace> stereo_image_proc stereo_image_proc
