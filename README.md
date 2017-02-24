@@ -25,6 +25,7 @@ To execute this package follow the following commands
 6.To obtain a rectified image from the raw image, use the image_proc node by the following command
 
     ROS_NAMESPACE:=<camera_namespace> rosrun image_proc image_proc
-
+    
         OR
+        
     ROS_NAMESPACE:=<camera_namespace> stereo_image_proc stereo_image_proc
