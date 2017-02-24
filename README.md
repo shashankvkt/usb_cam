@@ -1,6 +1,6 @@
 # usb_cam
-This repository is a usb camera package, based of V4L devices specifically.
-To execute this package follow the following commands
+This repository is a usb camera package, based of V4L devices specifically.  
+To execute this package follow the following commands  
 1. In the source directory of your catkin workspace, glone the repository by using the following command
 
     git clone https://github.com/shashankvkt/usb_cam.git
